@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(201, 240, 255, 0.5)
+    ),
+    url('images/bg-hero-mobile.svg');
+  background: cover;
+  height: 537px;
+}
+
+.nav {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* background-image: url(/images/bg-hero-mobile.svg); */
+  /* background: linear-gradient(#fff, rgb(201, 240, 255)), */
+  /* url(/images/bg-hero-mobile.svg); */
+
+  /* background: auto; */
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+}
+
+.logo {
+  height: 16px;
+  width: 104px;
+}
+
+.nav-cta {
+  height: 24px;
+  width: 96px;
+  border-radius: 12px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1);
+}
